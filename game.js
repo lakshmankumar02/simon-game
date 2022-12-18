@@ -89,6 +89,7 @@ function nextSequence() {
 // for play audio
 function playSound(name) {
   let audio = new Audio(name + ".mp3");
+  console.log(audio);
   audio.play();
 }
 
