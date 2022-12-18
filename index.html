@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c751ad132.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <h3 class="score myS">My Score: <span id="my_score"></span></h3>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+    <div class="rule_container">
+
+      <div class="rule">
+          <!-- <i class="fa-duotone fa-x icon">Close</i> -->
+          <div class="close">Close</div>
+        Game rule is so simple. In level 1, a button will flash then player(you) have to click that right button. If the clicked button is wrong then the game will be over but if it is right then the level changed into higher one. Now again, a button will flash but player(you) have also to click that previous button. e.g. If red button glows first time then you have to click red button and second time if red button again glows then you have to click red button twice and so on. <br><span class="important">Remember the previous sequence.</span>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
