@@ -6,42 +6,40 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 5%;
   color: #FEF2BF;
 }
 
-.score{
+.score {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
-  margin:  2.5%;
+  margin: 2.5%;
   color: #FEF2BF;
-  position: fixed;
-  right: 100px;
+  position: absolute;
 }
 
-.myS{
-  top: 200px;
+.myS {
+  right: 5%;
+  top: 35%;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
 
-}
-
-.rule_container{
+.rule_container {
   width: 600px;
-  position: fixed;
-  top: 200px;
-  left: 30%;
+  position: absolute;
+  top: 35%;
+  left: 20%;
   border: 2px solid black;
   border-radius: 10px;
   background-color: #FFDB89;
 }
 
-.rule{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.vihide {
+  visibility: hidden;
+}
+
+.rule_box {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.3rem;
   line-height: 1.8;
   letter-spacing: 0.5px;
@@ -49,10 +47,9 @@ body {
   color: #460C68;
   padding: 10px;
   position: relative;
-  /* padding-top: 35px; */
 }
 
-.close{
+.close {
   text-align: right;
   display: block;
   position: relative;
@@ -61,9 +58,30 @@ body {
   opacity: 0.7;
 }
 
-.important{
-  font-size: 1.8rem;
+.important {
+  font-size: 1.4rem;
   color: #ff0000;
+}
+
+.rule_btn {
+  font-family: 'Press Start 2P', cursive;
+  width: 140px;
+  height: 60px;
+  background-color: #ff0000;
+  color: #FEF2BF;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  position: absolute;
+  margin: 2.5%;
+  top: 25%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 5% auto 0px;
 }
 
 .btn {
@@ -99,4 +117,19 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  height: 110px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding-top: 20px 0px;
+}
+
+.footer-link{
+  color: #91D8E4;
 }
