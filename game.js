@@ -1,5 +1,11 @@
+
+$("#game_rule").click(function(){
+  $(".rule_container").toggleClass("vihide");
+})
+
+
 $(".close").click(function () {
-  $(".rule_container").fadeOut(800);
+  $(".rule_container").toggleClass("vihide");
 });
 
 let buttonColors = ["red", "blue", "green", "yellow"];
@@ -14,7 +20,6 @@ let myScore = level;
 
 $(document).keydown(function () {
   if (!started) {
-    $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
   }
@@ -68,8 +73,8 @@ function nextSequence() {
   gamePattern.push(randomChosenColor);
 
   // to make all button flash 
-  
-  totalLength = gamePattern.length;
+
+  let totalLength = gamePattern.length;
 
   for (let i = 0; i < totalLength; i++) {
     task(i);
@@ -81,7 +86,8 @@ function nextSequence() {
         .fadeOut(100)
         .fadeIn(100);
 
-      playSound(randomChosenColor);
+      playSound(gamePattern[i]);
+      // playSound(randomChosenColor);
     }, 500 * i);
   }
 }
@@ -89,6 +95,7 @@ function nextSequence() {
 // for play audio
 function playSound(name) {
   let audio = new Audio(name + ".mp3");
+  console.log(audio);
   audio.play();
 }
 
