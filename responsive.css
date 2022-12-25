@@ -89,13 +89,6 @@
   }
 }
 
-
-/* Media Query for Laptops and Desktops */
-
-/* @media (min-width: 1024px) and (max-width: 1280px) {
-
-} */
-
 /* Media Query for low resolution  Tablets, Ipads */
 
 @media (max-width: 767px) {
@@ -185,15 +178,3 @@
   }
 
 }
-
-/* Media Query for foldable mobiles */
-
-/* @media only screen and (max-width: 350px){
-
-} */
-
-/* Media Query for Tablets Ipads portrait mode */
-
-/* @media (min-width: 767px) and (max-width: 1024px){
-
-} */
