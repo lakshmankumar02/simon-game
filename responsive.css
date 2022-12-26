@@ -2,14 +2,11 @@
 
 @media (min-width: 1280px) {
   #level-title {
-    font-size: 3.5rem;
-  }
-
-  .score {
-    font-size: 1.7rem;
+    font-size: 3rem;
   }
 
   .myS {
+    right: 5%;
     top: 30%;
   }
 
@@ -51,47 +48,29 @@
 /* Media Query for Laptops and Desktops */
 
 @media (max-width: 1280px) {
-  #level-title {
-    font-size: 2.5rem;
-    line-height: 1.5;
-  }
-
-  .score {
-    font-size: 1.2rem;
-  }
 
   .myS {
-    right: 13%;
-    top: 35%;
+    right: 7%;
+    top: 25%;
   }
 
   .game_btn {
-    font-size: 1.2rem;
     height: auto;
-    line-height: 1.4;
   }
 
   .rule_btn {
     left: 5%;
-    top: 35%;
+    top: 25%;
   }
 
   .start_btn {
     left: 30%;
-    top: 35%;
+    top: 25%;
     height: 60px;
   }
 
   .rule_container {
     left: 18%;
-  }
-
-  .rule_box {
-    font-size: 1.2rem;
-  }
-
-  .important {
-    font-size: 1.3rem;
   }
 
   .container {
@@ -101,8 +80,6 @@
 
   .btn {
     margin: 12px;
-    height: 200px;
-    width: 200px;
   }
 }
 
@@ -111,7 +88,7 @@
 @media (max-width: 767px) {
 
   #level-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .score {
@@ -119,7 +96,7 @@
   }
 
   .myS {
-    top: 30%;
+    top: 18%;
   }
 
   .rule_container {
@@ -132,11 +109,11 @@
   }
   
   .rule_btn {
-    top: 30%;
+    top: 17%;
   }
 
   .start_btn {
-    top: 40%;
+    top: 27%;
     height: 50px;
   }
 
@@ -164,7 +141,7 @@
 
 @media only screen and (max-width: 480px) {
   #level-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .score {
@@ -172,12 +149,12 @@
   }
 
   .myS {
-    top: 35%;
+    top: 26%;
     right: 37%;
   }
 
   .rule_container {
-    width: 200px;
+    width: 230px;
   }
 
   .game_btn {
@@ -187,12 +164,12 @@
   
   .rule_btn {
     left: 27%;
-    top: 25%;
+    top: 17%;
   }
 
   .start_btn {
     left: 27%;
-    top: 40%;
+    top: 30%;
   }
 
   .rule_box {
@@ -205,7 +182,7 @@
 
   .container {
     width: 90%;
-    /* margin-top: 200px; */
+    margin-top: 230px;
   }
 
   .btn {
@@ -217,9 +194,11 @@
 
 }
 
+/* Media Query for foldable Devices */
+
 @media only screen and (max-width: 350px) {
   #level-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .myS {
@@ -232,5 +211,13 @@
 
   .start_btn {
     left: 20%;
+  }
+
+  .rule_container {
+    width: 130px;
+  }
+
+  .rule_box {
+    font-size: 0.5rem;
   }
 }
