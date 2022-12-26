@@ -63,7 +63,7 @@ body {
   color: #ff0000;
 }
 
-.rule_btn {
+.game_btn {
   font-family: 'Press Start 2P', cursive;
   width: 140px;
   height: 60px;
@@ -73,9 +73,18 @@ body {
   font-size: 1.4rem;
   position: absolute;
   margin: 2.5%;
+  cursor: pointer;
+}
+
+.rule_btn{
   top: 25%;
   left: 5%;
-  cursor: pointer;
+}
+
+.start_btn{
+  top: 65%;
+  left: 5%;
+  height: 70px;
 }
 
 .container {
