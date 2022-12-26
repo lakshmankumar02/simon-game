@@ -62,7 +62,7 @@
 
   .myS {
     right: 13%;
-    top: 30%;
+    top: 35%;
   }
 
   .game_btn {
@@ -73,12 +73,12 @@
 
   .rule_btn {
     left: 5%;
-    top: 30%;
+    top: 35%;
   }
 
   .start_btn {
     left: 30%;
-    top: 30%;
+    top: 35%;
     height: 60px;
   }
 
@@ -119,7 +119,7 @@
   }
 
   .myS {
-    top: 25%;
+    top: 30%;
   }
 
   .rule_container {
@@ -132,11 +132,11 @@
   }
   
   .rule_btn {
-    top: 20%;
+    top: 30%;
   }
 
   .start_btn {
-    top: 32%;
+    top: 40%;
     height: 50px;
   }
 
@@ -172,7 +172,7 @@
   }
 
   .myS {
-    top: 32%;
+    top: 35%;
     right: 37%;
   }
 
@@ -187,12 +187,12 @@
   
   .rule_btn {
     left: 27%;
-    top: 21%;
+    top: 25%;
   }
 
   .start_btn {
     left: 27%;
-    top: 37%;
+    top: 40%;
   }
 
   .rule_box {
@@ -215,4 +215,22 @@
     margin: 5px;
   }
 
+}
+
+@media only screen and (max-width: 350px) {
+  #level-title {
+    font-size: 1.2rem;
+  }
+
+  .myS {
+    right: 20%;
+  }
+  
+  .rule_btn {
+    left: 20%;
+  }
+
+  .start_btn {
+    left: 20%;
+  }
 }
