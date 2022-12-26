@@ -21,12 +21,20 @@
     font-size: 1.5rem;
   }
 
-  .rule_btn {
+  .game_btn {
     width: 170px;
     height: auto;
     font-size: 1.5rem;
     line-height: 1.4;
+  }
+
+  .rule_btn {
     top: 30%;
+  }
+
+  .start_btn {
+    top: 65%;
+    height: 60px;
   }
 
   .important {
@@ -57,23 +65,32 @@
     top: 30%;
   }
 
-  .rule_btn {
+  .game_btn {
     font-size: 1.2rem;
     height: auto;
     line-height: 1.4;
-    top: 30%;
-    left: 7%;
   }
 
-  .rule_container{
+  .rule_btn {
+    left: 5%;
+    top: 30%;
+  }
+
+  .start_btn {
+    left: 30%;
+    top: 30%;
+    height: 60px;
+  }
+
+  .rule_container {
     left: 18%;
   }
 
-  .rule_box{
-    font-size:1.2rem;
+  .rule_box {
+    font-size: 1.2rem;
   }
 
-  .important{
+  .important {
     font-size: 1.3rem;
   }
 
@@ -101,20 +118,33 @@
     font-size: 1rem;
   }
 
-  .rule_container{
+  .myS {
+    top: 25%;
+  }
+
+  .rule_container {
     width: 360px;
     left: 15%;
   }
 
-  .rule_btn {
+  .game_btn {
     font-size: 1rem;
   }
-
-  .rule_box{
-    font-size:0.9rem;
+  
+  .rule_btn {
+    top: 20%;
   }
 
-  .important{
+  .start_btn {
+    top: 32%;
+    height: 50px;
+  }
+
+  .rule_box {
+    font-size: 0.9rem;
+  }
+
+  .important {
     font-size: 1rem;
   }
 
@@ -141,27 +171,35 @@
     font-size: 0.7rem;
   }
 
-  .myS{
-    top: 35%;
+  .myS {
+    top: 32%;
     right: 37%;
   }
 
-  .rule_container{
+  .rule_container {
     width: 200px;
   }
 
-  .rule_btn {
+  .game_btn {
     font-size: 0.7rem;
     height: 40px;
-    top: 25%;
+  }
+  
+  .rule_btn {
     left: 27%;
+    top: 21%;
   }
 
-  .rule_box{
+  .start_btn {
+    left: 27%;
+    top: 37%;
+  }
+
+  .rule_box {
     font-size: 0.7rem;
   }
 
-  .important{
+  .important {
     font-size: 0.8rem;
   }
 
