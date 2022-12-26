@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <h3 class="score myS">My Score: <span id="my_score"></span></h3>
+  <button class="rule_btn game_btn" id="game_rule">Game Rule</button>
+  <button class="start_btn game_btn" id="start_btn">Start</button>
+
+  <div class="rule_container vihide">
+
+    <div class="rule_box">
+      <div class="close">Close</div>
+      Game rule is so simple. In level 1, a button will flash then player(you) have to click that right button. If the
+      clicked button is wrong then the game will be over but if it is right then the level changed into higher one. Now
+      again, a button will flash but player(you) have also to click that previous button. e.g. If red button glows first
+      time then you have to click red button and second time if red button again glows then you have to click red button
+      twice and so on. <br><span class="important">Remember the previous sequence.</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/lakshmankumar2002">LinkedIn</a>
+    <p class="copyright">Copyright © 2022LakshmanKumar.in</p>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
